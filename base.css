@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(5, 70, 48);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 24%;
+    background-color: #59b546;
+    padding: 10px 0px 0px;
+}
+.header {
+    background-color: #ffffff;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #2186ca;
+    min-height: 150px;
+}
+
+.header img{
+    margin: 10px;
+}
+
+blockquote{
+    color: #fff;
+    text-align: center;
+}
+
+blockquote a{
+    color: #fff;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul a{
+    color: #fff;
+}
+
+table{
+    border: solid #2287cc 1px;
+}
+
+thead th{
+    background-color: #59b546;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #2186ca;
+    color: #fff;
+}
+
+
+tbody tr:hover td{
+    background-color: #9ac492;
+}
+
+form{
+    margin: auto;
+    background-color: #59b546;
+    text-align: center;
+    width: 80%;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 70%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
